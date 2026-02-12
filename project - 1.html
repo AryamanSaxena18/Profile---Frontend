@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - 1</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        margin: 80px;
+    }
+    .original_box{
+        position: relative;
+    }
+    .container-1{
+        width: 300px;
+        height: 120px;
+        background-color: #4070F4;
+        border: 0px solid black;
+        box-sizing: border-box;
+        border-radius: 20px 20px 0 0;
+    }
+    .container-2{
+        width: 300px;
+        height: 250px;
+        background-color: white;
+        border: 0.5px solid black;
+        box-sizing: border-box;
+        border-radius:0px 0px 20px 20px;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        }
+
+    .p1{
+        padding: 5px;
+        font-size: 22px;
+        color: rgb(0, 0, 0);
+        font-weight: 800;        
+    }
+
+    .p1:hover{
+        cursor: pointer;
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .p2{
+        color: black;
+        font-size: 16px;
+        font-weight: 700px;
+        padding-bottom: 15px;
+    }
+
+    p2:hover{
+        color: grey;
+    }
+
+    img{
+        cursor: pointer;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        border: 3px solid white;
+    }
+    
+    .bx{
+        cursor: pointer;
+        font-size: 25px;
+        width: 40px;
+        padding: 5px;
+        margin-bottom: 18px;
+    }
+
+
+    .bxl-facebook{
+        color: blue;
+    }
+
+    .bxl-twitter{
+        color: #4070F4;
+    }
+
+    .bxl-instagram{
+        color: pink;
+    }
+
+    .bxl-youtube{
+        color: red;
+    }
+
+    .bxl-facebook:hover{
+        background-color: aqua;
+        border-radius: 10px;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .subscribe{
+        display: flex;
+        background-color:  #4070F4;
+        color:  white;
+        width: 35%;
+        height: 30px;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .message{
+        display: flex;
+        background-color:  #4070F4;
+        color: white;
+        width: 35%;
+        height: 30px;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box:hover{
+        cursor: pointer;
+        background-color: #375dc8;
+    }
+
+    .last_icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .last_icons ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding-left: 0px;
+    }
+
+    .last_icons ul li{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        list-style-type: none;
+    }
+
+    
+
+</style>
+<body>
+    
+    <div class="original_box">
+
+        <div class="container-1">            
+        </div>
+        <img src="profile-card-img.jpg" alt="Profile Photo">
+        <div class="container-2">
+            <p class="p1">CodingLab</p>
+            <p class="p2">Youtuber & Blogger</p>
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-youtube'></i>
+
+            <div class="container">
+                
+                <div class="subscribe box">
+                    <p>Subscribe</p>
+                </div>
+
+                <div class="message box">
+                    <p>Message</p>
+                </div>
+            </div>
+
+            <div class="last_icons">
+                <ul>
+                    <li><svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000" stroke="#000000" stroke-width="0.8320000000000001"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path fill="#ffffff" d="M58.714,29.977c0,0-0.612,0.75-1.823,1.961S33.414,55.414,33.414,55.414C33.023,55.805,32.512,56,32,56 s-1.023-0.195-1.414-0.586c0,0-22.266-22.266-23.477-23.477s-1.823-1.961-1.823-1.961C3.245,27.545,2,24.424,2,21 C2,13.268,8.268,7,16,7c3.866,0,7.366,1.566,9.899,4.101l0.009-0.009l4.678,4.677c0.781,0.781,2.047,0.781,2.828,0l4.678-4.677 l0.009,0.009C40.634,8.566,44.134,7,48,7c7.732,0,14,6.268,14,14C62,24.424,60.755,27.545,58.714,29.977z"></path> <path fill="#ffffff" d="M58.714,29.977c0,0-0.612,0.75-1.823,1.961S33.414,55.414,33.414,55.414C33.023,55.805,32.512,56,32,56 s-1.023-0.195-1.414-0.586c0,0-22.266-22.266-23.477-23.477s-1.823-1.961-1.823-1.961C3.245,27.545,2,24.424,2,21 C2,13.268,8.268,7,16,7c3.866,0,7.366,1.566,9.899,4.101l0.009-0.009l4.678,4.677c0.781,0.781,2.047,0.781,2.828,0l4.678-4.677 l0.009,0.009C40.634,8.566,44.134,7,48,7c7.732,0,14,6.268,14,14C62,24.424,60.755,27.545,58.714,29.977z"></path> <g> <path fill="#394240" d="M48,5c-4.418,0-8.418,1.791-11.313,4.687l-3.979,3.961c-0.391,0.391-1.023,0.391-1.414,0 c0,0-3.971-3.97-3.979-3.961C24.418,6.791,20.418,5,16,5C7.163,5,0,12.163,0,21c0,3.338,1.024,6.436,2.773,9 c0,0,0.734,1.164,1.602,2.031s24.797,24.797,24.797,24.797C29.953,57.609,30.977,58,32,58s2.047-0.391,2.828-1.172 c0,0,23.93-23.93,24.797-24.797S61.227,30,61.227,30C62.976,27.436,64,24.338,64,21C64,12.163,56.837,5,48,5z M58.714,29.977 c0,0-0.612,0.75-1.823,1.961S33.414,55.414,33.414,55.414C33.023,55.805,32.512,56,32,56s-1.023-0.195-1.414-0.586 c0,0-22.266-22.266-23.477-23.477s-1.823-1.961-1.823-1.961C3.245,27.545,2,24.424,2,21C2,13.268,8.268,7,16,7 c3.866,0,7.366,1.566,9.899,4.101l0.009-0.009l4.678,4.677c0.781,0.781,2.047,0.781,2.828,0l4.678-4.677l0.009,0.009 C40.634,8.566,44.134,7,48,7c7.732,0,14,6.268,14,14C62,24.424,60.755,27.545,58.714,29.977z"></path> <path fill="#394240" d="M48,11c-0.553,0-1,0.447-1,1s0.447,1,1,1c4.418,0,8,3.582,8,8c0,0.553,0.447,1,1,1s1-0.447,1-1 C58,15.478,53.522,11,48,11z"></path> </g> </g> </g></svg>60k</li>
+                    <li><svg width="20px" height="20px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000" transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>comment-1</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke-width="0.41600000000000004" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-100.000000, -255.000000)" fill="#000000"> <path d="M116,281 C114.832,281 113.704,280.864 112.62,280.633 L107.912,283.463 L107.975,278.824 C104.366,276.654 102,273.066 102,269 C102,262.373 108.268,257 116,257 C123.732,257 130,262.373 130,269 C130,275.628 123.732,281 116,281 L116,281 Z M116,255 C107.164,255 100,261.269 100,269 C100,273.419 102.345,277.354 106,279.919 L106,287 L113.009,282.747 C113.979,282.907 114.977,283 116,283 C124.836,283 132,276.732 132,269 C132,261.269 124.836,255 116,255 L116,255 Z" id="comment-1" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg>20k</li>
+                    <li><svg width="20px" height="20px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" transform="matrix(-1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M13.47 4.13998C12.74 4.35998 12.28 5.96 12.09 7.91C6.77997 7.91 2 13.4802 2 20.0802C4.19 14.0802 8.99995 12.45 12.14 12.45C12.34 14.21 12.79 15.6202 13.47 15.8202C15.57 16.4302 22 12.4401 22 9.98006C22 7.52006 15.57 3.52998 13.47 4.13998Z" stroke="#000000" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>12k</li>
+                </ul>
+            </div>
+        
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
